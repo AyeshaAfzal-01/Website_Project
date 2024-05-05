@@ -13,11 +13,6 @@ It's a Website development project and I've created a Website of total 4 pages n
 - [@AyeshaAfzal-01](https://github.com/AyeshaAfzal-01)
 
 
-## 🔗 Links
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayesha-afzal-4a0a2b29a/)
-
-
 
 ## Features
 
@@ -29,5 +24,12 @@ It's a Website development project and I've created a Website of total 4 pages n
    - Services 
    - Contact Us
 - Responsive website
+
+
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayesha-afzal-4a0a2b29a/)
 
 
