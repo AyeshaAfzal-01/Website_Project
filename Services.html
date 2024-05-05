@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKA_Designs</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo (3) (1).png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contactUs.html">CONTACT US</a></li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </div>
+      </nav>
+
+      <h1>Our Services</h1>
+    </section>
+
+    <!-- services content -->
+
+    <section class="services">
+      <h1>Services We Offer</h1>
+      <p>Here are the services we offer for our clients!</p>
+
+      <div class="row">
+        <div class="service-column">
+          <h3>Product Design</h3>
+          <p>
+            Designing innovative products that seamlessly blend style and
+            utility, giving your brand a distinctive edge in a competitive
+            market
+          </p>
+        </div>
+
+        <div class="service-column">
+          <h3>3D Realistic Renders</h3>
+          <p>
+            Engage your audience with impressive 3D models, highlighting your
+            mechanical creations with unmatched precision and sophistication<
+          </p>
+        </div>
+
+        <div class="service-column">
+          <h3>Animations</h3>
+          <p>
+            Bring your mechanical concepts to life through compelling
+            animations, weaving a narrative that leaves a lasting impression and
+            enhances your brand journey.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- strength -->
+
+    <section class="strength">
+      <h1>Our Strength</h1>
+      <p>
+        Vision, Endless passion and hardworking team is the strength of
+        UKA_Designs
+      </p>
+
+      <div class="row">
+        <div class="strength-column">
+          <img src="grid3.jpg" />
+          <h3>Our Vision</h3>
+          <p>
+            Our Vision: Pioneering the future with forward-thinking solutions
+            that redefine industries and inspire progress<
+          </p>
+        </div>
+        <div class="strength-column">
+          <img src="grid2.jpg" />
+          <h3>Our Endless passion</h3>
+          <p>
+            Our Endless Passion: Fueled by an unwavering commitment, we channel
+            boundless enthusiasm into every project, ensuring excellence in
+            every detail
+          </p>
+        </div>
+        <div class="strength-column">
+          <img src="box5.jpg" />
+          <h3>Our Proffesional Team</h3>
+          <p>
+            Our Professional Team: A dedicated collective of experts, blending
+            expertise and creativity to deliver solutions that exceed
+            expectations and drive success.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        UKA Designs, where innovation meets creativity in the realm of product
+        design. As a dedicated product design company, we<br />
+        take pride in transforming ideas into tangible, aesthetically pleasing,
+        and functional solutions.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+
+      <p>
+        <i class="fa-solid fa-copyright"></i> 2023 UKA DESIGNS. All rights
+        reserved. | Designed by UKA DESIGNS
+      </p>
+    </section>
+
+    <!-- javaScript for menu -->
+
+    <script>
+      var navlinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKA_Designs</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo (3) (1).png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contactUs.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <!-- About US content -->
+    <section class="aboutUs">
+      <div class="row">
+        <div class="about-column">
+          <h1>We are a Product Design Company</h1>
+          <p>
+            Welcome to UKA Designs, where innovation meets creativity in the
+            realm of product design. As a dedicated product design company, we
+            take pride in transforming ideas into tangible, aesthetically
+            pleasing, and functional solutions. Our team of passionate designers
+            is committed to pushing boundaries, embracing challenges, and
+            delivering exceptional products that resonate with both form and
+            function. With a focus on user-centric design and cutting-edge
+            technology, we strive to create experiences that leave a lasting
+            impact. At UKA Designs, we believe in the power of design to shape
+            the future, and we're here to bring your visions to life.
+          </p>
+          <a href="services.html" class="hero-button blue-button"
+            >EXPLORE NOW</a
+          >
+        </div>
+        <div class="about-column">
+          <img src="box5.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        UKA Designs, where innovation meets creativity in the realm of product
+        design. As a dedicated product design company, we<br />
+        take pride in transforming ideas into tangible, aesthetically pleasing,
+        and functional solutions.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+
+      <p>
+        <i class="fa-solid fa-copyright"></i> 2023 UKA DESIGNS. All rights
+        reserved. | Designed by UKA DESIGNS
+      </p>
+    </section>
+
+    <!-- javaScript for menu -->
+
+    <script>
+      var navlinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
