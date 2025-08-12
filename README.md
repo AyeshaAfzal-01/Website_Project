@@ -1,7 +1,7 @@
 
 ## Website_Project
 
-It's a Website development project and I've created a Website of total 4 pages named "UKA Design" , UKA designs is basically a product design and development company. 
+It's a simple Website development project and I've created a Website of total 4 pages named "UKA Design" , UKA designs is basically a product design and development company. 
 
 
 ### Authors
